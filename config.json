@@ -1,0 +1,239 @@
+{
+  "theme": {
+    "name": "BoxTheme",
+    "styles": [
+      "default",
+      "pink",
+      "purple",
+      "blue",
+      "turquoise",
+      "green",
+      "orange",
+      "red"
+    ],
+    "version": "2.19",
+    "sharedTheme": {
+      "isPortalSupport": true,
+      "useHeader": false,
+      "useLogo": false
+    }
+  },
+  "portalUrl": "https://rconesa82.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "App Wab 3D",
+  "subtitle": "with ArcGIS Web AppBuilder",
+  "keepAppState": false,
+  "logo": "https://rconesa82.maps.arcgis.com/sharing/rest/content/items/8dff3cbfed1747a4b3fbfde7aa8caea9/data",
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/BoxTheme/widgets/BoxController/Widget",
+        "position": {
+          "right": 0,
+          "bottom": 16,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "themes_BoxTheme_widgets_BoxController_Widget_13",
+        "url": "/webappbuilder/apps/3/themes/BoxTheme/widgets/BoxController/",
+        "icon": "themes/BoxTheme/widgets/BoxController/images/icon.png",
+        "name": "BoxController"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "left": 10,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_ZoomSlider_Widget_14",
+        "url": "/webappbuilder/apps/3/widgets/ZoomSlider/",
+        "icon": "widgets/ZoomSlider/images/icon.png",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/Home/Widget",
+        "position": {
+          "left": 10,
+          "top": 85,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_Home_Widget_15",
+        "url": "/webappbuilder/apps/3/widgets/Home/",
+        "icon": "widgets/Home/images/icon.png",
+        "name": "Home"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 10,
+          "top": 123,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_MyLocation_Widget_16",
+        "url": "/webappbuilder/apps/3/widgets/MyLocation/",
+        "icon": "widgets/MyLocation/images/icon.png",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/Navigate/Widget",
+        "position": {
+          "left": 10,
+          "top": 161,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_Navigate_Widget_17",
+        "url": "/webappbuilder/apps/3/widgets/Navigate/",
+        "icon": "widgets/Navigate/images/icon.png",
+        "name": "Navigate"
+      },
+      {
+        "uri": "widgets/Compass/Widget",
+        "position": {
+          "left": 10,
+          "bottom": 68,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_Compass_Widget_18",
+        "url": "/webappbuilder/apps/3/widgets/Compass/",
+        "icon": "widgets/Compass/images/icon.png",
+        "name": "Compass"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "position": {
+          "left": 10,
+          "bottom": 26,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_FullScreen_Widget_19",
+        "url": "/webappbuilder/apps/3/widgets/FullScreen/",
+        "icon": "widgets/FullScreen/images/icon.png",
+        "name": "FullScreen"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": "50%",
+          "top": 10,
+          "marginLeft": -187,
+          "relativeTo": "map"
+        },
+        "version": "2.19",
+        "id": "widgets_Coordinate_Widget_20",
+        "url": "/webappbuilder/apps/3/widgets/Coordinate/",
+        "icon": "widgets/Coordinate/images/icon.png",
+        "name": "Coordinate",
+        "visible": false
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.19",
+        "id": "widgets_Splash_Widget_21",
+        "url": "/webappbuilder/apps/3/widgets/Splash/",
+        "icon": "widgets/Splash/images/icon.png",
+        "name": "Splash"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": true,
+    "2D": false,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "3f176d8d60954738ba072bbacab9f129",
+    "mapOptions": {},
+    "id": "map",
+    "portalUrl": "https://rconesa82.maps.arcgis.com"
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/BoxTheme/panels/BoxPanel/Panel",
+      "position": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "relativeTo": "browser"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Daylight/Widget",
+        "version": "2.19",
+        "id": "widgets_Daylight_Widget_11",
+        "name": "Daylight",
+        "url": "/webappbuilder/apps/3/widgets/Daylight/",
+        "index": 2,
+        "icon": "widgets/Daylight/images/icon.png"
+      },
+      {
+        "uri": "widgets/Slides/Widget",
+        "version": "2.19",
+        "id": "widgets_Slides_Widget_12",
+        "name": "Slides",
+        "url": "/webappbuilder/apps/3/widgets/Slides/",
+        "position": {
+          "relativeTo": "map"
+        },
+        "index": 3,
+        "icon": "widgets/Slides/images/icon.png"
+      },
+      {
+        "name": "Measurement3D",
+        "version": "2.19",
+        "uri": "widgets/Measurement3D/Widget",
+        "config": "configs/Measurement3D/config_widgets_Measurement3D_Widget_22.json",
+        "index": 5,
+        "id": "widgets_Measurement3D_Widget_22",
+        "url": "/webappbuilder/apps/3/widgets/Measurement3D/"
+      }
+    ],
+    "groups": []
+  },
+  "loadingPage": {
+    "backgroundColor": "#ffffff",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/loading.gif",
+      "width": 200,
+      "height": 200
+    }
+  },
+  "wabVersion": "2.19",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "configWabVersion": "2.19"
+}
